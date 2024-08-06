@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const user_Url = "http://localhost:7000";
+const user_Url = "https://shourya-ecomm.onrender.com";
 
 const initialState = {
   isLoading: false,
