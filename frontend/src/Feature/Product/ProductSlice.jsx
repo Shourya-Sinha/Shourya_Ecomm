@@ -2,8 +2,8 @@ import { Base } from "@ant-design/charts";
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const Pro_Url = "http://localhost:7000/product";
-export const Base_Url2 = "http://localhost:7000";
+const Pro_Url = "https://shourya-ecomm.onrender.com/product";
+export const Base_Url2 = "https://shourya-ecomm.onrender.com";
 const initialState={
     products:[],
     isLoading:false,

@@ -26,7 +26,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
 import { Toast } from "react-bootstrap";
 
-const Base_Url = "http://localhost:7000";
+const Base_Url = "https://shourya-ecomm.onrender.com";
 const Singlrroduct = () => {
   const { id } = useParams(); // Get product ID from URL
   const [quantity, setQuantity] = useState(1);

@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { useSelector } from "react-redux";
 import { Navigate, useNavigate } from "react-router-dom";
-const Base_Url = "http://localhost:7000";
+const Base_Url = "https://shourya-ecomm.onrender.com";
 
 const initialState = {
   isLoading: false,

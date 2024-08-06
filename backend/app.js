@@ -26,7 +26,7 @@ const app = express();
 // Middleware
 //app.use(cors());
 app.use(cors({
-    origin: 'http://localhost:7000', // Replace with your frontend origin
+    origin: 'https://shourya-ecomm.onrender.com', // Replace with your frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true // This allows cookies to be sent and received
   }));
